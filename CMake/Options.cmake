@@ -137,7 +137,7 @@ carla_option (
 carla_option (
   ENABLE_STREETMAP
   "Whether to download the Streetmap UE plugin."
-  OFF
+  ON
 )
 
 
@@ -406,7 +406,7 @@ carla_string_option (
 carla_string_option (
   CARLA_STREETMAP_VERSION
   "Target StreetMap version."
-  ue5.3
+  ue5-dev-carla
 )
 
 carla_string_option (
@@ -426,7 +426,7 @@ carla_string_option (
 carla_string_option (
   CARLA_FASTDDS_TAG
   "Target Fast-DDS git tag."
-  ${CARLA_FASTDDS_VERSION}
+  v${CARLA_FASTDDS_VERSION}
 )
 
 # ==== FASTCDR ====
